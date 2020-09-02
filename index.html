@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Forms</title>
+	</head>
+	<body>
+		<form>
+		<fieldset>
+		<legend>Tell me about yourself</legend>
+			<label for="name">What's your name?</label>
+			<input type="text" id="name" name="name">
+			
+			<br />
+			<br />
+			
+			<label for="age">How old are you?</label>
+			<input type="number" id="age" name="age" min="0" max="150">
+			
+			<br />
+			<br />
+			
+			<label for="subjects">What are your favourite school subjects?</label>
+			<select name="subjects" size="4" multiple="multiple">
+			<option value="a">Math</option>
+			<option value="b">Science</option>
+			<option value="c">English</option>
+			<option value="d">History</option>
+			<option value="e">Art</option>
+			<option value="e">Music</option>
+			<option value="e">Social Studies</option>
+			<option value="e">Physics</option>
+			<option value="e">Chemistry</option>
+			<option value="e">Biology</option>
+			</select>
+			<br />
+			<br />
+			<label for="gender">What is your gender?</label>
+			<input type="radio" name="gender" value="Male" /> Male
+			<input type="radio" name="gender" value="Female" /> Female
+			<input type="radio" name="gender" value="Other" /> Other
+			
+			</fieldset>
+			
+			<fieldset>
+				<legend>About my web site</legend>
+				<label for="favPage">What were your favourite pages?</label>
+				<input type="checkbox" name="favPage" value="Home" /> Home
+				<input type="checkbox" name="favPage" value="About" /> About
+				<input type="checkbox" name="favPage" value="School" /> School
+				<input type="checkbox" name="favPage" value="Hobbies" /> Hobbies
+				<br />
+				<br />
+				<p>Please leave your comments...</p>
+				<br />
+				<textarea name="comments" rows="3" ></textarea>
+			</fieldset>
+			<input type="submit" name="submit button" value="Submit Query"/>
+			&nbsp;
+			<input type="reset" name="reset button" value="Reset"/>
+		</form>
+	</body>
+</html>
